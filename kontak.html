@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PPIQ Tahfidzul Qur'an</title>
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+
+        <!-- menu website -->
+        <div>
+            <a href="website.html"> Home </a>
+            <a href="kontak.html"> Kontak </a>
+        </div>
+        
+        <!-- bagian awal, isinya tag heading-->
+        <div>
+            <h1>PPIQ Tahifidzul Qur'an</h1>
+            <h2>&nbsp;Website resmi <span>Asrama Tahfidzul Qur'an</span></h2>
+        </div>
+
+        <!-- membuat form-->
+        <form> 
+            <fieldset>
+                <legend> Nama dan Pesan</legend>
+                <label for="nama_user">Nama</label>
+                <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+                <br>
+                <label for="pesan_user">Pesan</label>
+                <textarea cols="100" rows="7" id="pesan_user"> pesan saya adalah...</textarea>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pilihan Data</legend>
+                <label>Hobi</label> <br>
+                <input type="checkbox" name="hobi_user" value="0"> Menulis 
+                <input type="checkbox"name="hobi_user" value="1"> Membaca
+                <input type="checkbox"name="hobi_user" value="2" checked> Sepakbola 
+                <br>
+                <label>Jenis Kelamin</label> <br>
+                <input type="radio" name="gender" value="0" checked>Laki-laki 
+                <input type="radio" name="gender" value="1">Perempuan
+                <br>
+                <label>Kategori Majlis</label>
+                <select>
+                    <optgroup label="Kelompok A">
+                        <option value="0">1- 5 Juz</option>
+                    </optgroup>
+
+                    <optgroup label="Kelompok B">
+                        <option value="1">1- 10 Juz</option>
+                    </optgroup>
+
+                    <optgroup label="Kelompok C" >
+                        <option value="0">1- 15 Juz</option>
+                    </optgroup>
+
+                    <optgroup label="Kelompok D">
+                        <option value="0">1- 20 Juz</option>
+                    </optgroup>
+
+                    <optgroup label="Kelompok E">
+                        <option value="0">1- 25 Juz</option>
+                    </optgroup>
+
+                    <optgroup label="Kelompok F">
+                        <option value="0">1- 30 Juz</option>
+                    </optgroup>
+                </select>
+                <br>
+                <input type="submit" value="Kirim Data">
+            </fieldset>
+        </form>
+    
+        <br><br>
+
+        <!-- membuat tabel -->
+        <table border="1">
+            <caption> Daftar Santri PPIQ Tahifidzul Qur'an</caption>
+            <tr>
+                <th>Nama Santri</th>
+                <th>Kota Asal</th>
+            </tr>
+            <tr>
+                <td>Iqon</td>
+                <td>Jember</td>
+            </tr>
+            <tr>
+                <td>Aldi</td>
+                <td>Bali</td>
+            </tr>
+            <tr>
+                <td>Ulin</td>
+                <td>Yogyakarta</td>
+            </tr>
+            <tr>
+                <td>Kiflan</td>
+                <td>Paiton</td>
+            </tr>
+            <tr>
+                <td>Nabil</td>
+                <td>Bondowoso</td>
+            </tr>
+            <tr>
+                <td>Imong</td>
+                <td>Situbondo</td>
+            </tr>
+        </table>
+
+        <!-- List-->
+        <ul>
+            <li>Iqon</li>
+            <li>Aldi</li>
+            <li>Ulin</li>
+            <li>Kiflan</li>
+            <li>Nabil</li>
+            <li>Imong</li>
+        </ul>
+
+        <ol>
+            <li>Iqon</li>
+            <li>Aldi</li>
+            <li>Ulin</li>
+            <li>Kiflan</li>
+            <li>Nabil</li>
+            <li>Imong</li>
+        </ol>
+        <dl>
+            <dt>Iqon</dt>
+            <dd>Anak Asuh Pertama</dd>
+
+            <dt>Aldi</dt>
+            <dd>Anak Asuh Kedua</dd>
+
+            <dt>Ulin</dt>
+            <dd>Anak Asuh Ketiga</dd>
+
+            <dt>Kiflan</dt>
+            <dd>Anak Asuh Keempat</dd>
+
+            <dt>Nabil</dt>
+            <dd>Anak Asuh Kelima</dd>
+
+            <dt>Imong</dt>
+            <dd>Anak Asuh Keenam</dd>
+
+        </dl>
+
+        <p> &copy; PPIQTahfidzulQur'an</p>
+    </body>
+</html>
